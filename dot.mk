@@ -10,7 +10,7 @@ $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 $(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_jfltexx
+PRODUCT_NAME := dot_jfltexx
 PRODUCT_DEVICE := jfltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
