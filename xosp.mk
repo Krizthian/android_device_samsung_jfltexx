@@ -6,12 +6,19 @@ $(call inherit-product, device/samsung/jfltexx/device.mk)
 
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
-# Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+# Inherit some common XOSP stuff.
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := dot_jfltexx
+PRODUCT_NAME := xosp_jfltexx
 PRODUCT_DEVICE := jfltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I9505
+
+# Root
+ROOT_METHOD := magisk
+
+# Browser
+USE_CHROMIUM := true
