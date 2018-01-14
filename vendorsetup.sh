@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo dot_jfltexx-userdebug
+add_lunch_combo slim_jfltexx-userdebug
