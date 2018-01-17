@@ -7,10 +7,10 @@ $(call inherit-product, device/samsung/jfltexx/device.mk)
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
 # Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := dot_jfltexx
+PRODUCT_NAME := aosp_jfltexx
 PRODUCT_DEVICE := jfltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
