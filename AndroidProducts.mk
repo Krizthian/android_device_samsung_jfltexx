@@ -14,5 +14,6 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_jfltexx.mk
+    $(LOCAL_DIR)/nitrogen_jfltexx.mk \
+    $(LOCAL_DIR)/full_jfltexx.mk
 
