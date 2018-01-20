@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo dot_jfltexx-userdebug
+add_lunch_combo nitrogen_jfltexx-user
+add_lunch_combo nitrogen_jfltexx-userdebug
+add_lunch_combo nitrogen_jfltexx-end
