@@ -20,6 +20,9 @@
 # definition file).
 #
 
+#Kernel
+TARGET_KERNEL_CONFIG := lineageos_jf_defconfig
+
 # inherit from common jf
 include device/samsung/jf-common/BoardConfigCommon.mk
 
